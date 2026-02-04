@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>💰 Tip Calculator</h1>
+    <p class="subtitle">Calculate your bill total in seconds</p>
+
+    <div class="input-group">
+      <label for="bill">Bill Amount</label>
+      <input type="number" id="bill" placeholder="Enter bill amount" />
+    </div>
+
+    <div class="input-group">
+      <label for="tip">Tip Percentage</label>
+      <input type="number" id="tip" placeholder="Enter tip %" />
+    </div>
+
+    <button id="calculate">Calculate Total</button>
+
+    <div class="result-box">
+      <p>Total Amount</p>
+      <h2 id="total">₹0.00</h2>
+    </div>
+  </div>
+
+  <script src="logic.js"></script>
+</body>
+</html>
